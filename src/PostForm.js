@@ -13,7 +13,8 @@ class PostForm extends Component {
         const data = {
             id: new Date(),
             title,
-            message
+            message,
+            editing: false
         }
 
         this.props.dispatch({
